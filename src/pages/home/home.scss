@@ -1,3 +1,33 @@
 page-home {
+    .image-container {
+        background-size: cover;
+        min-height: 200px;        
+    }
+
+    @media (min-width: 0px) {
+        .images {
+            column-count: 2;
+        }
+    
+    }
+
+    @media (min-width: 620px) {
+        .images {
+            column-count: 3;
+        }
+    
+    }
+
+    @media (min-width: 820px) {
+        .images {
+            column-count: 4;
+        }
+    
+    }
+
+   
+    .one-image {
+        margin: 2px;
+    }
 
 }
