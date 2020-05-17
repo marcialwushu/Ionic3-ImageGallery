@@ -1,6 +1,5 @@
 {
-  "name": "gridPhoto",
-  "app_id": "",
-  "type": "ionic-angular",
-  "integrations": {}
+  "name": "imageGalery",
+  "integrations": {},
+  "type": "ionic-angular"
 }

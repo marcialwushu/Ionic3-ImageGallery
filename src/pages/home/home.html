@@ -8,12 +8,12 @@
 
 <ion-content padding>
   <ion-segment [(ngModel)]="galleryType">
-  <ion-segment-button value="regular">
-    Regular
-  </ion-segment-button>
-  <ion-segment-button value="pinterest">
-    Pinterest
-  </ion-segment-button>
+    <ion-segment-button value="regular">
+      Regular
+    </ion-segment-button>
+    <ion-segment-button value="pinterest">
+      Pinterest
+    </ion-segment-button>
   </ion-segment>
 
   <div [ngSwitch]="galleryType">
